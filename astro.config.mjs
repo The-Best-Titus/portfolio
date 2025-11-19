@@ -7,7 +7,7 @@ import mdx from '@astrojs/mdx';
 // https://astro.build/config
 
 export default defineConfig({
-  site: 'https://The-Best-Titus.github.io',
+  site: 'https://the-best-titus.github.io',
   base: '/portfolio', // Your repo name
   integrations: [mdx()],
   vite: {
