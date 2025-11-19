@@ -1,10 +1,10 @@
 ---
-title: "University of AI"
-subtitle: "Bachelor of Information Systems"
-logo: "https://api.dicebear.com/9.x/icons/svg?seed=Sophia"
-startDate: "2015-09-01"
-endDate: "2019-05-30"
-link: "https://university.edu"
+title: "Valentine High School"
+subtitle: "High school education"
+logo: "/images/Vlogo.png"
+startDate: "2021-09-01"
+endDate: "2025-05-30"
+link: "https://www.valentinecommunityschools.org/"
 ---
 
-Focused on software engineering, algorithms, and data structures. Graduated with honors and participated in various coding competitions.
+Class of 2025. While in High school had the opertunity to take college classes with MPCC. As well as intern at KVSH.

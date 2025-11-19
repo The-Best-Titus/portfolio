@@ -46,9 +46,6 @@ const { Content: AboutContent } = await render(aboutEntry);
     <!-- Projects Section -->
     {siteConfig.sections.projects && <Projects />}
 
-    <!-- Blog Section -->
-    {siteConfig.sections.blog && <Blog />}
-
     <!-- Work Experience Section -->
     {
       siteConfig.sections.work && (
@@ -75,6 +72,9 @@ const { Content: AboutContent } = await render(aboutEntry);
         />
       )
     }
+
+    <!-- Blog Section -->
+    {siteConfig.sections.blog && <Blog />}
 
     <!-- Hackathons Section -->
     {siteConfig.sections.hackathons && <Hackathons />}

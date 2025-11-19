@@ -1,6 +1,6 @@
 ---
 title: "About Me"
-photo: "https://api.dicebear.com/9.x/adventurer-neutral/svg?seed=Destiny&scale=90&backgroundColor=763900,9e5622,ecad80,f2d3b1,c0aede,b6e3f4"
+photo: "/images/Cinema.png"
 ---
 
-I'm a full-stack developer with a passion for creating beautiful, functional, and user-friendly web applications. With experience in **modern frameworks and technologies**, I love turning ideas into reality through code. When I'm not coding, you can find me **exploring new technologies**, contributing to open source, or enjoying a good cup of coffee.
+I’m Titus, a **freshman Computer Engineering student** with a passion for hands-on tech. I enjoy building server labs, working with microcontrollers, and designing responsive web interfaces. My projects blend hardware and software to solve real-world problems. I’m always **learning new tools and frameworks** to expand my skills. This site is where I share my journey and showcase what I’m building.

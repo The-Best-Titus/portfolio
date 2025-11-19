@@ -5,7 +5,7 @@
  * Update these values to personalize your portfolio site.
  */
 
-import { BookOpen, FileText, Flower2, CodeXml } from "@lucide/astro";
+import { BookOpen, FileText, Flower2, CodeXml, House, Notebook, Rocket } from "@lucide/astro";
 import { Code } from "astro:components";
 
 /**
@@ -95,55 +95,48 @@ export interface SiteConfig {
  * Update these values to customize your portfolio
  */
 export const siteConfig: SiteConfig = {
-  name: "🌻 Bloomfolio",
-  title: "Astro Portfolio Template built with 🌼 DaisyUI",
+  name: "Titus",
+  title: "My simple portfolio",
   description:
-    "A modern, responsive, and customizable portfolio template built with Astro and DaisyUI. Perfect for developers, designers, and creatives to showcase their work and skills.",
-  avatar: "../assets/bloomfolio.png",
-  location: "🇧🇷 Brazil",
+    "I am determined to make myself a person people can depend on and improve myself when I see an opportunity.",
+  avatar: "C:/Users/titus/Documents/Astro/Mark_1/bloomfolio/src/assets/Me.png",
+  location: "🇺🇸 Omaha Nebraska, USA",
   email: "hello@example.com",
   socialLinks: {
-    github: "https://github.com/lauroguedes",
-    linkedin: "https://linkedin.com/in/lauroguedes",
-    twitter: "https://twitter.com/leowg",
-    bluesky: "https://bsky.app/profile/lauroguedes.bsky.social",
-    instagram: "https://instagram.com/lauroguedes.dev",
-    youTube: "https://youtube.com/leowgweb",
-    codetips: "https://codetips.cloud/u/lauroguedes",
+    github: "https://github.com/The-Best-Titus",
+    linkedin: "www.linkedin.com/in/titus-maunu-3b4ba8308",
+    instagram: "https://www.instagram.com/titus_maunu/",
+    youTube: "https://www.youtube.com/@the_baco",
   },
   enableThemeSelector: true,
   extraLinks: {
     enable: true,
     links: [
       {
-        link: "/blog/guides/bloomfolio-complete-guide",
-        icon: Flower2,
-        label: "Bloomfolio Guide",
+        link: "/blog/",
+        icon: Notebook,
+        label: "Blog",
       },
       {
-        link: "/blog/guides/content-collections-guide",
-        icon: BookOpen,
-        label: "Content Guide",
+        link: "/projects/",
+        icon: Rocket,
+        label: "Project",
       },
       {
-        link: "/blog/guides/markdown-guide",
-        icon: FileText,
-        label: "Markdown Guide",
+        link: "/",
+        icon: House,
+        label: "Home",
       },
-      {
-        link: "https://github.com/lauroguedes/bloomfolio",
-        icon: CodeXml,
-        label: "GitHub Repo",
-      },
+
     ],
   },
   sections: {
     about: true,
-    projects: true,
-    blog: true,
+    projects: false,
     work: true,
     education: true,
-    hackathons: true,
+    blog: true,
+    hackathons: false,
     contact: true,
   },
 };
