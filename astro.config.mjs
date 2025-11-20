@@ -8,7 +8,6 @@ import mdx from '@astrojs/mdx';
 
 export default defineConfig({
   site: 'https://the-best-titus.github.io',
-  base: '/portfolio', // Your repo name
   trailingSlash: 'ignore',
   integrations: [mdx()],
   vite: {
