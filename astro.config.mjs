@@ -8,6 +8,7 @@ import mdx from '@astrojs/mdx';
 
 export default defineConfig({
   site: 'https://the-best-titus.github.io',
+  base: '/bloomfolio',
   trailingSlash: 'ignore',
   integrations: [mdx()],
   vite: {
