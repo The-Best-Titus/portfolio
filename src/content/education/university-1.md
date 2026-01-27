@@ -1,7 +1,7 @@
 ---
 title: "University of Nebraska Lincoln at Omaha"
 subtitle: "Future Bachelor of Computer engineering"
-logo: "/portfolio/images/uno.png"
+logo: "/images/uno.png"
 startDate: "2025-09-01"
 endDate: "2029-05-30"
 link: "https://www.unomaha.edu/academic-programs/college-of-engineering-unl/bachelor-of-science-computer-engineering.php"
